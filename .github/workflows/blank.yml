@@ -1,4 +1,4 @@
-student@guithi0777-server:~/ansible$ cat playbooks/recette.yml 
+student@guithi0777-server:~/ansible-test$ cat playbooks/recette.yml 
 
 - name: toto.txt
   hosts: ansible-test
