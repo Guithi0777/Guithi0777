@@ -1,5 +1,5 @@
 student@guithi0777-server:~/ansible-test$ cat playbooks/recette.yml 
-
+---
 - name: toto.txt
   hosts: ansible-test
   remote_user: root
