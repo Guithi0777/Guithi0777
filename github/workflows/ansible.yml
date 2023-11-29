@@ -2,7 +2,7 @@ name: Deploy Ansible playbooks
 on:
   push:
   workflow_dispatch:
-- jobs:
+jobs:
   run-ansible:
     runs-on: self-hosted
 steps:
