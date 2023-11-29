@@ -12,4 +12,4 @@ steps:
         
 - name: copy ansible files
 run: |
-  rsync -av -P ansible /home/student
+     rsync -av -P ansible /home/student
