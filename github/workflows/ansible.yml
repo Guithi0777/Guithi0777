@@ -13,4 +13,4 @@ on:
       uses: actions/checkout@v4
       -name: copy file ansible to github
       run : |
-
+        rsync -av -P ansible /home/student
