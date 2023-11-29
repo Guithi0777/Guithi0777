@@ -11,5 +11,5 @@ steps:
   uses: actions/checkout@v4
         
 - name: copy ansible files
-    run: |
+run: |
      rsync -av -P ansible /home/student
