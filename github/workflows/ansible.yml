@@ -1,0 +1,16 @@
+name: deploy ansible
+
+on: 
+   push:
+     workflow_dispatch:
+
+       jobs:
+         deploy:
+            runs-on: self-hosted
+
+       steps:
+      -name: checkout
+      uses: actions/checkout@v4
+      -name: copy file ansible to github
+      run : |
+
